@@ -1,0 +1,251 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c0751ae75ad241b055493822bf0dc9c0",
+    "packages": [
+        {
+            "name": "noodlehaus/config",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hassankhan/config.git",
+                "reference": "5c0ad8e530013c559cfa1e7e77a586075e667f56"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hassankhan/config/zipball/5c0ad8e530013c559cfa1e7e77a586075e667f56",
+                "reference": "5c0ad8e530013c559cfa1e7e77a586075e667f56",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">= 4.8.36",
+                "scrutinizer/ocular": "~1.1",
+                "squizlabs/php_codesniffer": "~2.2",
+                "symfony/yaml": "~3.4"
+            },
+            "suggest": {
+                "symfony/yaml": "~3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Noodlehaus\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hassan Khan",
+                    "homepage": "http://hassankhan.me/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Lightweight configuration file loader that supports PHP, INI, XML, JSON, and YAML files",
+            "homepage": "http://hassankhan.me/config/",
+            "keywords": [
+                "config",
+                "configuration",
+                "ini",
+                "json",
+                "microphp",
+                "unframework",
+                "xml",
+                "yaml",
+                "yml"
+            ],
+            "abandoned": true,
+            "time": "2019-02-01T13:58:25+00:00"
+        },
+        {
+            "name": "zerig/console",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Zerig/console.git",
+                "reference": "2280f8547d5af428a7e267ae99dfdda21e971c14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Zerig/console/zipball/2280f8547d5af428a7e267ae99dfdda21e971c14",
+                "reference": "2280f8547d5af428a7e267ae99dfdda21e971c14",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Console\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeronym Pelikovsky",
+                    "email": "pelikovsky@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Works with data which could be helpful during creating system.",
+            "keywords": [
+                "console",
+                "log"
+            ],
+            "time": "2020-04-27T08:21:29+00:00"
+        },
+        {
+            "name": "zerig/date",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Zerig/date.git",
+                "reference": "77457472bd464e0877b54c642859cd1f0123a727"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Zerig/date/zipball/77457472bd464e0877b54c642859cd1f0123a727",
+                "reference": "77457472bd464e0877b54c642859cd1f0123a727",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Date\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeronym Pelikovsky",
+                    "email": "pelikovsky@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Works with DateTime class. Use czech name of Months and Week Days and Format",
+            "keywords": [
+                "czech date",
+                "czech dateTime"
+            ],
+            "time": "2020-04-17T10:05:28+00:00"
+        },
+        {
+            "name": "zerig/report",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Zerig/report.git",
+                "reference": "44604aaf4afb25ad632534385ef22809e866b63a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Zerig/report/zipball/44604aaf4afb25ad632534385ef22809e866b63a",
+                "reference": "44604aaf4afb25ad632534385ef22809e866b63a",
+                "shasum": ""
+            },
+            "require": {
+                "noodlehaus/config": "dev-master",
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Report\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeronym Pelikovsky",
+                    "email": "pelikovsky@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Report user about what happend.",
+            "keywords": [
+                "report"
+            ],
+            "time": "2020-05-05T13:19:45+00:00"
+        },
+        {
+            "name": "zerig/sql-manager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Zerig/sql-manager.git",
+                "reference": "c50ece80780a8cdd828a78ab2f4663825f5088af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Zerig/sql-manager/zipball/c50ece80780a8cdd828a78ab2f4663825f5088af",
+                "reference": "c50ece80780a8cdd828a78ab2f4663825f5088af",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "zerig/console": "@dev",
+                "zerig/date": "@dev",
+                "zerig/report": "@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SqlManager\\": "src/",
+                    "FCE\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeronym Pelikovsky",
+                    "email": "pelikovsky@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This class connets to DB and work with it.",
+            "keywords": [
+                "SQL manager",
+                "database",
+                "mysql"
+            ],
+            "time": "2020-05-05T14:46:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "zerig/sql-manager": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
